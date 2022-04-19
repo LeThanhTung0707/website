@@ -1,0 +1,218 @@
+/* chung */
+
+.overhide {
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+body {
+    background:white;
+}
+/* Riêng */
+
+.sidebar {
+    width:280px;
+    float:left;
+    z-index: 1000;
+}
+.text {
+    float:left;
+    width: 169px;
+    line-height: 70px;
+    bottom:0;
+    color:black;
+}
+.sidebar-logo {
+    padding:0 20px;
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    border-right: 1px solid rgba(0,0,0,.0625);
+    display: block;
+    min-height: 70px;
+}
+.title {
+    padding:0 12px;
+}
+.sidebar-logo .logo {
+    float:left;
+    line-height: 70px;
+}
+.sidebar-logo .logo img 
+{
+    width: 70px;
+    height: 65px;
+}
+/* side menu */
+.nav-dashboard {
+    color:blue;
+}
+.nav-user {
+    color:red;
+}
+.nav-post {
+    color:orange;
+}
+.menu {
+    border-right: 1px solid rgba(0,0,0,.0625);
+    height: calc(100vh - 70px);
+}
+.sidebar-menu {
+    padding-top :32px;
+ 
+}
+.sidebar-menu>li {
+    display:block;
+    position: relative;
+}
+.nav-item {
+    padding:8px;
+    padding-left:20px;
+}
+.nav-item .nav-icon ,
+.nav-item .title ,
+.nav-item .dropdown {
+    white-space: nowrap;
+    display: inline-block;
+}
+.main-nav {
+    padding-bottom:12px;
+}
+.nav-item .nav-icon {
+    font-size:17px;
+}
+.sub-nav {
+    height:0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.sub-nav li {
+    padding :12px 0;
+    padding-left:32px;
+}
+
+.menu .nav-item .open {
+    height:90px;
+}
+.open {
+    height: 90px;
+}
+
+.main-nav:hover,
+.sub-nav-list:hover {
+    
+    cursor: pointer;
+    
+}
+
+
+/* nav ở trên  */
+.page-container {
+    padding-left: 280px;
+    min-height: 100vh;
+    transition: all .2s ease;
+}
+.page-container .head-nav {
+    height: 70px;
+}
+.page-container .nav-left {
+    float:left; 
+    margin-left: 15px;
+}
+.page-container .nav-right {
+    float:right;
+    margin-right: 15px;
+    position: relative;
+    padding:0 40px;
+    padding-left: 0;
+}
+.head-container .nav-left>li {
+    padding:0 30px;
+}
+.head-container .nav-left>li:hover div {
+    color:black;
+    cursor: pointer;
+}
+.head-container .nav-left>li>div ,
+.head-container .nav-right>li {
+    line-height:70px;
+    white-space: nowrap;
+}
+.head-container .nav-right .sub-nav {
+    position: absolute;
+    left:0;
+    
+   
+}
+.head-container .nav-right .sub-nav li {
+    padding-left:0;
+}
+.head-container .nav-right:hover {
+    cursor: pointer;
+}
+.head-container .sub-nav-list {
+   padding-left:4px !important;
+   padding-right: 4px;
+}
+.head-container .nav-left>li>div {
+    font-size:17px;
+    color: #72777a;
+    font-weight: 600;
+}
+.head-nav {
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+}
+
+/* chung admin */
+
+.main-dash {
+    width:80%;
+    margin:32px auto;
+}
+
+.main-dash .item {
+    border-radius: 8px;
+    width:23%;
+    margin-right: 2%;
+   
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    font-size:18px;
+}
+.border-left-primary {
+
+border-left: .25rem solid #4e73df!important; }
+.border-left-warning {
+    border-left: .25rem solid #f6c23e!important;
+}
+.border-left-success {
+    border-left: .25rem solid #1cc88a!important;
+}
+.border-left-info {
+    border-left: .25rem solid #36b9cc!important;
+}
+
+.main-dash .number {
+    margin :16px;
+    margin-left:150px;
+}
+
+.main-dash .item:hover a {
+    color :black;
+}
+
+
+.container {
+    margin-top:0;
+    padding-top:12px;
+    width:99.71%;
+    background: #edf0f1;
+    margin-left:0;
+    margin-right:0;
+    height:calc(100% - 70px);
+    padding-left:72px;
+}
